@@ -1,6 +1,5 @@
-using System;
+
 using System.Collections.Generic;
-using Models;
 
 //simular banco de dados
 namespace Repositories{
@@ -9,6 +8,7 @@ namespace Repositories{
         private static List<Models.Funcionario> funcionarios = new List<Models.Funcionario>();
 //metodo que retorna a lista funcionarios
         public static List<Models.Funcionario> returnFunc(){
+            
             return funcionarios;
         }
 //metodo que adiciona funcionario na lista

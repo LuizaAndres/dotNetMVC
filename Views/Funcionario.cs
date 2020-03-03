@@ -1,17 +1,16 @@
 using System;
 using Models;
-using Controllers;
 
-namespace view{
+namespace View{
     public class FuncionarioView {
-        public static void Funcionario(){
-            FuncionarioController.addFuncionario(1,"Jacks", "1321");
-            FuncionarioController.addFuncionario(2,"João", "1231");
-            FuncionarioController.addFuncionario(1,"José", "13215");
-            foreach (Funcionario Funcionario in Models.Funcionario.func())
-            {
-                Console.WriteLine(Funcionario);
-            }
+        public static void addFuncionario(int id, String nome, string cpf){
+        Controllers.FuncionarioController.addFuncionario(id, nome, cpf);
         }
+        public static void returnFunc(){
+             foreach (Models.Funcionario funcionario in Controllers.FuncionarioController.returnFunc())
+            {
+                Console.WriteLine(funcionario);
+            }
+        }               
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.exe
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.deps.json
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.runtimeconfig.json
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.runtimeconfig.dev.json
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.dll
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\bin\Debug\netcoreapp3.1\dotNetMVC.pdb
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.csprojAssemblyReference.cache
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\staticwebassets\dotNetMVC.StaticWebAssets.Manifest.cache
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\staticwebassets\dotNetMVC.StaticWebAssets.xml
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.AssemblyInfoInputs.cache
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.AssemblyInfo.cs
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.RazorTargetAssemblyInfo.cache
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.dll
+C:\Users\luiza.andres\Desktop\Repositorios\dotNetMVC\obj\Debug\netcoreapp3.1\dotNetMVC.pdb

@@ -1,15 +1,11 @@
-using System;
+
 using System.Collections.Generic;
-using System.Linq;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Repositories;
 
 namespace Models{
     public class Funcionario{
 //funcao do c# que deixa fazer os sets e gets mais facil
-        public int ID { get; set; }
+        private int ID { get; set; }
         public string Nome {get; set; }
         public string Cpf {get; set; }
 //contrutor de funcionario
@@ -17,15 +13,15 @@ namespace Models{
 //nao usa this por causa do linhaa 3 
             ID=id;
             Nome=nome;
-            Cpf=Cpf;
+            Cpf=cpf;
             RepositoryFuncionario.addFuncionario(this);
         }
 //funcao que retorna a lista de funcionarios
-        public static List<Funcionario> func(){
+        public static List<Funcionario> returnFunc(){
             return RepositoryFuncionario.returnFunc();
         }
-        /*public override string toString(){
-            returns $"{ID} - {Nome} - {Cpf}";
-        }*/
+        public override string ToString(){
+            return $"{ID} - {Nome} - {Cpf}";
+        }
     }
 }

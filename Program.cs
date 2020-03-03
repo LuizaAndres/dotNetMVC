@@ -1,21 +1,19 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using View;
 
 namespace dotNetMVC
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
+        public static void Main(){
+//adiciona funcionarios na view
+            FuncionarioView.addFuncionario(1,"Jacks", "1321");
+            FuncionarioView.addFuncionario(2,"João", "1231");
+            FuncionarioView.addFuncionario(3,"José", "13215");
             
+//retorna os cadastros            
+           FuncionarioView.returnFunc();
         }
-
-
     }
+    
 }
