@@ -6,14 +6,44 @@ namespace dotNetMVC
     public class Program
     {
         public static void Main(){
-//adiciona funcionarios na view
-            FuncionarioView.addFuncionario(1,"Jacks", "1321");
-            FuncionarioView.addFuncionario(2,"João", "1231");
-            FuncionarioView.addFuncionario(3,"José", "13215");
             
-//retorna os cadastros            
-           FuncionarioView.returnFunc();
+            int op =0;
+            do{
+                Console.WriteLine("Escolha uma opção:");
+                Console.WriteLine(
+                    "1 - Adicionar funcionario\n"+
+                    "2 - Ver lista de funcionarios\n"+
+                    "0 - Sair \n"
+                );
+                try {
+                    op = Convert.ToInt32(Console.ReadLine());
+                } catch {
+                Console.WriteLine ("Digite um número");
+                op = 99;
+                }
+                switch (op)
+                {
+                    case 1:{
+                        Console.WriteLine("Adicionar funcionario");
+                        View.FuncionarioView.addFuncionario();
+                        break;
+                    }
+                    case 2:{
+                        Console.WriteLine("Lista de funcionarios");
+                        FuncionarioView.returnFunc();
+                        Console.WriteLine("\n");
+                        break;
+                    }
+                    case 0:{
+                        Console.WriteLine("\nTchau\n ");
+                        break;
+                    }
+                    default:{
+                        Console.WriteLine("\nNÚMERO INVÁLIDO\n ");
+                        break;
+                    }
+                }
+            }while(op!=0);  
         }
     }
-    
 }
