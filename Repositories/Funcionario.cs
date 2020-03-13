@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-
 namespace Repositories{
     public class RepositoryFuncionario{
         private static List<Models.Funcionario> funcionarios = new List<Models.Funcionario>();

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Repositories;
-
 namespace Models{
     public class Funcionario{
         // {get; set; } funcao do c# que deixa fazer os sets e gets mais facil, dispensa o uso do this
@@ -13,10 +12,6 @@ namespace Models{
             Nome=nome;
             Cpf=cpf;
             RepositoryFuncionario.addFuncionario(this);
-        }
-        //funcao que retorna a lista de funcionarios
-        public static List<Funcionario> returnFunc(){
-            return RepositoryFuncionario.returnFunc();
         }
         public override string ToString(){
             return $"{ID} - {Nome} - {Cpf}";

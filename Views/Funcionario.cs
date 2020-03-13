@@ -1,6 +1,4 @@
 using System;
-using Models;
-
 namespace View{
     public class FuncionarioView {
         //requere infos do funcionario    

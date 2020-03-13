@@ -1,12 +1,10 @@
 using System;
 using View;
-
 namespace dotNetMVC
 {
     public class Program
     {
         public static void Main(){
-            
             int op =0;
             do{
                 Console.WriteLine("Escolha uma opção:");
